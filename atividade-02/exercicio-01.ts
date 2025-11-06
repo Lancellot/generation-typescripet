@@ -1,4 +1,4 @@
-import { Queue } from './Queue.ts';
+import { Queue } from './Queue.ts'
 import readline from 'readline-sync';
 
 const fila = new Queue<string>();
@@ -33,7 +33,6 @@ do {
             break;
 
         case 3:
-            const removido = fila.dequeue();
             if (fila.isEmpty()) {
                 console.log("\nA fila está vazia!");
             } else {

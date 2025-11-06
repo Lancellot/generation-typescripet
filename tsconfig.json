@@ -4,8 +4,8 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
 
-    // Facilita o import sem extensão
-    "allowImportingTsExtensions": false,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
 
     // Opcional: define entrada e saída
     // "rootDir": "./src",
